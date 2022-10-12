@@ -1,0 +1,477 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?me1zyq');
+    src:  url('../fonts/icomoon.eot?me1zyq#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?me1zyq') format('truetype'),
+      url('../fonts/icomoon.woff?me1zyq') format('woff'),
+      url('../fonts/icomoon.svg?me1zyq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.w{
+    width: 1420px;
+    margin: 0 auto;
+}
+.header{
+    width: 100% ;
+    height: 155px;
+    background:url(../img/956de2627e2cc1a9da53ea1d8762cea33e8ea6e5.png@3840w_360h_1c_90q.webp) no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+}
+.head{
+    position: absolute;
+    width: 1520px;
+    height: 64px;
+    line-height: 64px;
+    top: 0;
+   z-index: 999;
+   left: 50%;
+   transform: translateX(-50%);
+   
+
+}
+
+.head_left{
+    float: left;
+}
+.head_left li{
+    float: left;
+    padding-right: 15px;
+}
+.head_left li a{
+    color: #fff;
+    font-size: 14px;
+    font-size: 400;
+    font-family: inherit;
+}
+#py::before{
+    content: '';
+    font-family: 'icomoon';
+    color: #fff;
+    font-size: 14px;
+    margin-right: 6px;
+
+}
+#xz::before{
+    content: '';
+    font-family: 'icomoon';
+    color: #fff;
+    margin-right: 6px;
+}
+#xz{
+    position: relative;
+}
+#xz span{
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -4px;
+    width: 17px;
+    height: 14px;
+    background: url(../img/xin.png) no-repeat;
+    background-size: cover;
+
+}
+.head_zj{
+    float: left;
+    width: 470px;
+    height: 40px;
+    margin-left: 34px;
+    border-radius: 10px;
+    margin-top: 15px;
+    overflow: hidden;
+    position: relative;
+   
+}
+.head_zj input{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    padding-left: 8px;
+    background-color: #f1f2f3;
+    color: var(--text2);
+    font-size: 14px;
+    border: 1px solid var(--line_regular);
+    outline: 0;
+    color: #ccc;
+
+
+}
+.head_zj::after{
+    content: '';
+    font-family: 'icomoon';
+    color: #000;
+    z-index: 999;
+    position: absolute;
+    right: 16px;
+    top: -10px;
+}
+.head_right{
+    float: left;
+    box-sizing: border-box;
+    padding: 15px 14px;
+
+}
+.head_right li{
+    float: left;
+}
+.head_right a{
+    font-size: 14px;
+    color: #fff;
+}
+.one{
+    height: 36px;
+    width: 36px;
+    margin: 0 7px;
+}
+.one span{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #00aeec;
+    border-radius: 18px;
+    line-height: 36px;
+    text-align: center;
+}
+.two{
+    width: 60px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.tp{
+    font-family: 'icomoon';
+    margin: 0;
+    padding: 0;
+    height: 21px;
+    width: 22px;    
+}
+.two p{
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+.three{
+    display: block;
+    width: 90px;
+    height: 34px;
+    background-color: #fb7299;
+    border-radius: 10px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #fff;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.three::before{
+    content: '';
+    font-family: 'icomoon';
+    margin-right: 5px;
+}
+.logo{
+    width: 162px;
+    height: 78px;
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.py{
+    width: 1420px;
+    height: 110px;
+}
+.py_left{
+    width: 210px;
+    height: 72px;
+    float: left;
+    margin-top: 19px;
+    margin-right: 8px;
+}
+.py_left a{
+    display: block;
+    float: left;
+    height: 100%;
+    width: 46px;
+    margin-right: 24px;
+    text-align: center;
+}
+.py_left a li{
+    height: 46px;
+    width: 46px;
+    background-color: #ff9212;
+    border-radius: 23px;
+    line-height: 46px;
+    text-align: center;
+    font-family: 'icomoon';
+    font-size: 18px;
+    margin-bottom: 6px;
+    color: #fff;
+}
+.py_left a p{
+    color: #18191c;
+    font-size: 14px;
+}
+.py_left a:nth-child(2) li{
+    background-color: #f07775;
+}
+.py_left a:nth-child(3) li{
+    background-color: #59ca73;
+}
+.py_zj{
+    float: left;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+.zj_top li,.zj_bottom li{
+    float: left;
+    width: 75px;
+    height: 28px;
+    background-color: #f6f7f8;
+    border-radius: 6px;
+    margin-right: 8px;
+    box-sizing: border-box;
+    line-height: 28px;
+    text-align: center  ;
+   
+}
+.zj_top li a,.zj_bottom li a{
+    color: #61666d;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.zj_bottom{
+    margin-top: 40px;
+}
+.py_right{
+    width: 240px;
+    height: 66px;
+    float: right;
+    margin-top: 20px;
+    border-left: 1px solid #e3e5e7;
+}
+.py_right a{
+    height: 28px;
+    display: block;
+    float: left;
+    line-height: 28px;
+    width: 72px;
+    margin-left: 7px;
+}
+.cd{
+    width: 96px;
+}
+.py_right a:nth-child(-n+3){
+    margin-bottom: 7px;
+}
+.py_right a li{
+    float: left;
+    height: 14px;
+    width: 14px;
+    margin-top: 8px;
+    margin-right: 4px;
+    margin-left: 3px;
+    font-family: 'icomoon';
+    line-height: 14px;
+    text-align: center;
+    color: #000;
+}
+.py_right a span{
+    font-size: 12px;
+    color: #000;
+}
+.main_left{
+    float: left;
+    width: 550px;
+    height: 390px;
+    background-color: pink;
+}
+.lbt{
+    width: 550px;
+    height: 390px;
+    background-color: red;
+    position: relative;
+    overflow: hidden;
+
+}
+.lbt ul{
+    height: 100%;
+    width: 1200%;
+    position: absolute;
+}
+.lbt ul li{
+    float: left;
+   
+}
+.lbt img{
+    height: 390px;
+    width: 550px;
+}
+
+.zb,.yb{
+    color: #000;
+    position: absolute;
+     font-family: 'icomoon';
+     height: 28px;
+     width: 28px;
+     line-height: 28px;
+     border-radius: 8px;
+     background-color: #eee;
+     text-align: center;
+     bottom: 30px;
+     font-size: 18px;
+     font-weight: 700;
+}
+.zb{
+    right: 80px;
+}
+.yb{
+    right: 40px;
+}
+ol{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+ol li{
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    background-color: #fff;
+    float: left;
+    margin-right: 10px;
+}
+.hs{
+    background-color:red;
+    height: 14px;
+    width: 14px;
+    border-radius: 7px;
+}
+
+
+
+
+.main_right{
+    float: left;
+    width: 870px;
+}
+.main_right li,.sp li{
+    height: 222px;
+    width: 263px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+    position: relative;
+   
+    
+}
+.main_right li img,.sp li img{
+    width: 100%;
+    height: 150px;
+    border-radius:10px;
+}
+.main_right li p,.sp li p{
+    color: #18191c;
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-right: 4px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-weight: 700;
+}
+.main_right li .lj,.sp li .lj{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+}
+.lj span{
+    float: left;
+}
+.main_right li span:nth-of-type(1),.sp li span:nth-of-type(1){
+    width: 57px;
+    height: 17px;
+    display: inline;
+    font-size: 12px;
+    background-color: #fff0e3;
+    margin-right: 4px;
+    border-radius: 5px;
+    color: #ff7f24;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+}
+.main_right li span:nth-of-type(2),.sp li span:nth-of-type(2){
+    font-size: 13px;
+    color: #9499a0;
+}
+.qx{
+    clear: both;
+}
+
+.sp{
+    margin-top: 10px;
+    width: 100%;
+    padding: 30px 0;
+    border-bottom: 3px solid #eee;
+}
+
+.sp li:nth-of-type(1){
+    margin-left: 0;
+}
+.sp h1{
+    color: #18191c;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+#one{
+    border: 0;
+}
+.hd li{
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+}
+.hd li:nth-child(2){
+    line-height: 40px;
+}
+.hd{
+    position: absolute;
+    right: 10px;
+    top: 270px;
+}
+.db{
+    line-height: 40px;
+}
